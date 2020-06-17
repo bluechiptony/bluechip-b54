@@ -15,6 +15,7 @@ export interface AuthenticationProfile {
   accountType: string;
   activationToken?: string;
   tokenExpiry?: Date;
+  active: boolean;
   createdBy?: string;
   updatedBy?: string;
   createdDate?: Date;
@@ -29,5 +30,5 @@ export interface LoginRequest {
 export interface AuthenticationState {
   user?: User;
   token?: string;
-  loggedIn?: boolean;
+  loggedIn: boolean;
 }

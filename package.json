@@ -16,8 +16,13 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluechiptony/bluechip-b54.git"
+  },
+  "homepage": "https://github.com/bluechiptony/bluechip-b54.git#readme",
   "keywords": [],
-  "author": "",
+  "author": "Anthony Egwu Jr",
   "license": "ISC",
   "files": [
     "lib/**/*"
