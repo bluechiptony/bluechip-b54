@@ -27,6 +27,11 @@ export interface LoginRequest {
   password: string;
 }
 
+export interface PasswordCreationRequest {
+  token: string;
+  password: string;
+}
+
 export interface AuthenticationState {
   user?: User;
   token?: string;
