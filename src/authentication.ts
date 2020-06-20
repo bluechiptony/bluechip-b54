@@ -1,1 +1,7 @@
-export { AccountType, AuthenticationProfile, LoginRequest } from './model/authentication.model';
+export {
+  AccountType,
+  AuthenticationProfile,
+  AuthenticationState,
+  LoginRequest,
+  PasswordCreationRequest,
+} from './model/authentication.model';
