@@ -1,6 +1,6 @@
 {
   "name": "bluechip-b54",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Application library",
   "main": "./lib/index.js",
   "typings": "./lib/index",
