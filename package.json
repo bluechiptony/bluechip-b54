@@ -1,14 +1,14 @@
 {
   "name": "bluechip-b54",
-  "version": "1.0.5",
+  "version": "1.0.3",
   "description": "Application library",
-  "main": "./index.js",
-  "typings": "./index",
-  "types": "./index.d.ts",
+  "main": "./lib/index.js",
+  "typings": "./lib/index",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"./**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\" \"lib/**/*.js\"",
     "lint": "eslint -c .eslintrc.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
@@ -25,7 +25,7 @@
   "author": "Anthony Egwu Jr",
   "license": "ISC",
   "files": [
-    "./**/*"
+    "lib/**/*"
   ],
   "dependencies": {
     "@types/jest": "^26.0.0",
